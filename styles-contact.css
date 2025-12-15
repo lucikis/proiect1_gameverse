@@ -1,0 +1,78 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header{
+    background-color: #1e1e1e;
+    display: flex;
+    padding: 20px;
+}
+
+.header-content{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 800px;
+}
+
+.logo{
+    padding: 15px;
+    height: 50px;
+}
+
+.contact h1{
+    padding-top: 10px;
+}
+
+.textboxes input, .textboxes textarea {
+    display: block;
+    width: 300px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.textboxes button {
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.contact h3{
+    font-size: 30px;
+}
+
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+}
+
+nav a:hover{
+    color: #7000ff;
+}
+
+footer{
+    display: flex;
+    margin-top: 270px;
+    background-color: #1e1e1e;
+}
+
+.copyright{
+    text-align: center;
+    padding-left: 45%;
+    padding-top: 25px;
+}
+
+.contact{
+    padding-left: 400px;
+    padding-top: 20px;
+}
+
+.contact .mail a{
+  text-decoration: none;
+  color: white;
+}

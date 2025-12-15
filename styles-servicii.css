@@ -1,0 +1,121 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header{
+    background-color: #1e1e1e;
+    display: flex;
+    padding: 20px;
+}
+
+.header-content{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 800px;
+}
+
+.logo{
+    padding: 15px;
+    height: 50px;
+}
+
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+}
+
+nav a:hover{
+    color: #7000ff;
+}
+
+span{
+    color: #7000ff;
+}
+
+.page-header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #121212;
+}
+
+.page-header h1 {
+    font-size: 2.5em;
+    margin: 0 0 10px 0; 
+}
+
+.page-header p{
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    margin-left: 95px;
+    padding-left: 15px;
+    border-left: solid 5px #7000ff;
+    font-size: 30px;
+}
+
+.grid{
+    display: flex;
+    padding: 20px 60px;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card{
+    background-color: #1e1e1e;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 25px;
+}
+
+.card:hover{
+    background-color: #242424;
+}
+
+.shop .card{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.card-description{
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.service{
+    padding-top: 80px;
+}
+
+footer{
+    display: flex;
+    margin-top: 160px;
+    background-color: #1e1e1e;
+}
+
+.copyright{
+    text-align: center;
+    padding-left: 45%;
+    padding-top: 25px;
+}
+
+.contact{
+    padding-left: 400px;
+    padding-top: 20px;
+}
+
+.contact .mail a{
+  text-decoration: none;
+  color: white;
+}
